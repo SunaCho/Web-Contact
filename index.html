@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <meta charset="utf-8">
+        <title>Contact</title>       
+        <link href="css/reset.css" rel="stylesheet"
+        type="text/css"/>
+        <link href="css/style.css" rel="stylesheet"
+        type="text/css"/>
+        <script src="js/jquery.1.12.4.js"
+        type="text/javascript"></script>
+        <script
+        src="plugins/bxslider/js/jquery.bxslider.js"
+        type="text/javascript"></script>
+        <script src="https://kit.fontawesome.com/0ea0c08c8a.js" crossorigin="anonymous"></script>
+        <script>
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                controls:false,
+                pager:false,
+                auto:true
+            });
+          });
+        </script>
+
+    </head>
+    <body>
+        <div class="overlay"></div>
+        <!-- <img src="images/a.jpg" alt="Background_01"
+        /> 가로 및 세로 스크롤 없애기 위해서는 img 태그를 이용하지 않음(img 태그의 크기 보존)-->
+        <div class="slider">
+            <div class="Background_01"> </div> 
+            <div class="Background_02"> </div>
+            <div class="Background_03"> </div> 
+        </div>
+        <div class="contents">
+            <p class="contents_name">Cho, Suna</p>
+            <p class="contents_job">Climate Systems Engineering, Ewha Womans University, Seoul</p>
+            <div class="contents_sns"> 
+                <ul class="contents_list">
+                    <li>
+                        <a href="http://facebook.com/jsa0173" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    <li>
+                        <a href="http://instagram.com/rougxflxur" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-blogger-b"></i>
+                        </a>
+                    </li> 
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
